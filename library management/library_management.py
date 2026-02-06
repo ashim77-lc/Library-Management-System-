@@ -80,7 +80,7 @@ class Library:
         print(f"Available    : {total - issued}")
 
 
-# ---------- FILE HANDLING ----------
+
 
 def load_books():
     books = {}
@@ -107,7 +107,6 @@ def save_books(books):
             )
 
 
-# ---------- MAIN PROGRAM ----------
 
 library = Library()
 library.books = load_books()
@@ -155,4 +154,5 @@ while True:
         break
 
     else:
+
         print("Invalid choice")
